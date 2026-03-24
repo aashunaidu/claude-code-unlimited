@@ -33,8 +33,9 @@ You get a single local endpoint (`http://127.0.0.1:11434`) that looks like an Ol
 
 1. Go to [openrouter.ai](https://openrouter.ai) and make a free account
 2. Go to **Keys** → **Create Key**
-3. Make as many as you want — the more keys, the more parallel requests you can run
+3. Make as many accounts as you can, more accounts, more keys. You can use temp mail if you take responsibility. 
 4. Copy them all — you'll paste them into the script
+5. If you are a all day user, you only need max 45-50 keys and you can almost never able to hit the limit. 
 
 > 💡 **Tip:** You can make keys with different email aliases (e.g. `yourname+1@gmail.com`, `yourname+2@gmail.com`) to get more free-tier quota.
 
@@ -91,14 +92,14 @@ OPENROUTER_KEYS_STRING = (
 ### Step 4 — Run It
 
 ```bash
-python balancer.py
+python openrouter.py
 ```
 
 You'll see a dashboard pop up in your terminal. Leave it running.
 
 ---
 
-### Step 5 — Connect Claude Code
+### Step 5 — Connect Claude Code and also works with openclaw
 
 Run this command **once** to point Claude Code at your local proxy:
 
