@@ -37,7 +37,7 @@ You get a single local endpoint (`http://127.0.0.1:11434`) that looks like an Ol
 4. Copy them all — you'll paste them into the script
 5. If you are a all day user, you only need max 45-50 keys and you can almost never able to hit the limit. 
 
-> 💡 **Tip:** You can make keys with different email aliases (e.g. `yourname+1@gmail.com`, `yourname+2@gmail.com`) to get more free-tier quota.
+
 
 ---
 
